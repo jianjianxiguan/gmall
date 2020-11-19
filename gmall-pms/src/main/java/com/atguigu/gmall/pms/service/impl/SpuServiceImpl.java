@@ -1,15 +1,15 @@
 package com.atguigu.gmall.pms.service.impl;
 
-import com.atguigu.gmall.pms.entity.*;
-import com.atguigu.gmall.pms.entity.vo.SkuVo;
-import com.atguigu.gmall.pms.entity.vo.SpuAttrValueVo;
-import com.atguigu.gmall.pms.entity.vo.SpuVo;
+import com.atguigu.gmall.pms.vo.SkuVo;
+import com.atguigu.gmall.pms.vo.SpuAttrValueVo;
+import com.atguigu.gmall.pms.vo.SpuVo;
 import com.atguigu.gmall.pms.feign.GmallSmsClient;
 import com.atguigu.gmall.pms.mapper.SkuMapper;
 import com.atguigu.gmall.pms.mapper.SpuDescMapper;
 import com.atguigu.gmall.pms.service.SkuAttrValueService;
 import com.atguigu.gmall.pms.service.SkuImagesService;
 import com.atguigu.gmall.pms.service.SpuAttrValueService;
+import com.atguigu.gmall.pms.entity.*;
 import com.atguigu.gmall.sms.vo.SkuSaleVo;
 import io.seata.spring.annotation.GlobalTransactional;
 import org.apache.commons.lang3.StringUtils;
